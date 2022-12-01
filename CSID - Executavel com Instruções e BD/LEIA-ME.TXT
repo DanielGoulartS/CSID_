@@ -1,0 +1,15 @@
+========================
+INSTRUÇÔES
+========================
+
+1- Primeiramente, certifique-se de instalar o Java Runtime Enviroment (JRE), o MySQL Server, e um SGBD para interagir com o MySQL Server (Recomenda-se MySQL WorkBench 8.0).
+(NO MOMENTO DA INSTALAÇÃO DA BASE DE DADOS LEMBRE-SE DE DEIXAR O USUÁRIO 'root' E SENHA '' *VAZIA* POIS O CSID CARREGA ESTAS CREDENCIAIS POR PADRÃO)
+
+2- Com estes Requisitos instalados, basta abrir
+o SGBD, abrir o Script 'csid.sql' e executá-lo lá, podendo alternativamente copiar seu conteúdo e colá-lo e executá-lo manualmente pelo mesmo local.
+
+3- MANTENHA TODOS OS ARQUIVOS NAS DEVIDAS PASTAS em que se encontram, e para maior comodidade, com o botão direito clique no arquivo CSID.jar desta mesma pasta e 'Enviar para > Área de Trabalho' e assim criará um atalho para utilização do mesmo. Após este processo, transfira a pasta CSID para um local seguro (sugerido 'C:\').
+
+
+OBS1:(USUÁRIOS HABITUADOS PODEM BAIXAR O PROJETO NO GITHUB ATRAVÉS DO LINK 'https://github.com/DanielGoulartS/CSID_' E ALTERAR AS CREDENCIAIS NA CLASSE CSID.Model.Connection no método conectar())
+OBS2: RECOMENDA-SE A ALOCAÇÃO DESTA BASE DE DADOS EM UM SERVIDOR REMOTO E OS DEMAIS SOFTWARES CLIENTES APONTANDO PARA O MESMO SERVIDOR
